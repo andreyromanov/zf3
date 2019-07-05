@@ -12,5 +12,8 @@
  */
 
 return [
-    // ...
+    'db' => [
+        'driver' => 'Pdo',
+        'dsn'    => sprintf('mysql:dbname=zend_db', realpath(getcwd())),
+    ],
 ];
