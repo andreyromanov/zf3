@@ -2,6 +2,7 @@
 namespace Album;
 
 use Zend\Router\Http\Segment;
+use Zend\Router\Http\Literal;
 //use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
@@ -28,7 +29,7 @@ return [
                 ],
             ],
         ],
-    ],
+            ],
 ],
 
     'view_manager' => [
